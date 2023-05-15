@@ -55,11 +55,6 @@ header.backImage .backImage-heading { /*Arkaplan başlığı için css*/
     color: #fa836a;
 }
 
-
-
-
-
-
 @media(max-width:991.98px) {/*Large ekran altında uygulanması gereken css*/
     header.backImage {
         padding-top: 11rem;
@@ -121,3 +116,4 @@ header.backImage .backImage-heading { /*Arkaplan başlığı için css*/
     }
 
 }
+
