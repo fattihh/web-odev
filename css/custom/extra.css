@@ -1,4 +1,4 @@
-header.backImage {
+header.backImage { /*Arkaplan resmi için css*/
     background-image: url("../../img/ünye_arkaplan.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -6,14 +6,14 @@ header.backImage {
     background-size: cover;
 }
 
-header.backImage .backImage-sub {
+header.backImage .backImage-sub { /*Arkaplan yazısı için css*/
     font-size: 1.5rem;
     line-height: 1.5rem;
     font-style: italic;
     font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-header.backImage .backImage-heading {
+header.backImage .backImage-heading { /*Arkaplan başlığı için css*/
     font-size: 3rem;
     font-weight: 700;
     line-height: 3rem;
@@ -21,7 +21,41 @@ header.backImage .backImage-heading {
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-@media(max-width:991.98px) {
+#mainNavbar {/*navbar verilen bosluklar ve arkplan rengi*/
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
+}
+
+#mainNavbar .navbar-brand {/* navbardaki logo için gerekli css*/
+    color: #de3545;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.063em;
+}
+
+#mainNavbar .navbar-nav .nav-item .nav-link {
+    font-family: "Montserrat",
+        -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        'Open Sans',
+        'Helvetica Neue',
+        sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: 0.06em;
+}
+#mainNavbar .navbar-nav .nav-item .nav-link.active,
+#mainNavbar .navbar-nav .nav-item .nav-link:hover {
+    color: #fa836a;
+}
+
+@media(max-width:991.98px) {/*Large ekran altında uygulanması gereken css*/
     header.backImage {
         padding-top: 11rem;
         padding-bottom: 13rem;
@@ -31,11 +65,55 @@ header.backImage .backImage-heading {
         font-size: 2rem;
         line-height: 2rem;
     }
+     /*Large ekran altında navbar rengi*/
+    #mainNavbar .navbar-nav .nav-item .nav-link {
+        color: #212529;
+    }
 }
 
-@media(min-width:992px) {
+@media(min-width:992px) {/*Large ekran ve üsütünde uygulanması gereken css*/
     header.backImage {
         padding-top: 15rem;
         padding-bottom: 15rem;
     }
+    /* large ve üstü ekranlarda navbar*/
+    #mainNavbar {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        border: none;
+        background-color: transparent;
+        transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+        -webkit-transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+        -moz-transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+        -ms-transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+        -o-transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    }
+
+    #mainNavbar .navbar-brand {
+        font-size: 1.5rem;
+        transition: font-size 0.3s ease-in-out;
+        -webkit-transition: font-size 0.3s ease-in-out;
+        -moz-transition: font-size 0.3s ease-in-out;
+        -ms-transition: font-size 0.3s ease-in-out;
+        -o-transition: font-size 0.3s ease-in-out;
+    }
+    /*navbara itemlerine 1 padding ver*/
+    #mainNavbar .navbar-nav .nav-item {
+        margin-right: 1rem;
+    }
+    /*sonuncusuna verme 1 padding*/
+    #mainNavbar .navbar-nav .nav-item:last-child {
+        margin-right: 0;
+    }
+    #mainNavbar.navbar-mobile .navbar-brand {
+        font-size: 1.20em;
+    }
+
+    #mainNavbar.navbar-mobile {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: #212529;
+    }
+
 }
+
