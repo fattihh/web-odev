@@ -24,7 +24,7 @@ header.backImage .backImage-heading { /*Arkaplan başlığı için css*/
 #mainNavbar {/*navbar verilen bosluklar ve arkplan rengi*/
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color: #366ea5;
 }
 
 #mainNavbar .navbar-brand {/* navbardaki logo için gerekli css*/
@@ -47,12 +47,13 @@ header.backImage .backImage-heading { /*Arkaplan başlığı için css*/
         'Helvetica Neue',
         sans-serif;
     font-size: 1rem;
-    color: #fff;
+    color: #be682a;
     letter-spacing: 0.06em;
 }
 #mainNavbar .navbar-nav .nav-item .nav-link.active,
+
 #mainNavbar .navbar-nav .nav-item .nav-link:hover {
-    color: #fa836a;
+    color: #2d6dad;
 }
 
 @media(max-width:991.98px) {/*Large ekran altında uygulanması gereken css*/
@@ -67,7 +68,7 @@ header.backImage .backImage-heading { /*Arkaplan başlığı için css*/
     }
      /*Large ekran altında navbar rengi*/
     #mainNavbar .navbar-nav .nav-item .nav-link {
-        color: #212529;
+        color: #2976cd;
     }
 }
 
@@ -112,7 +113,7 @@ header.backImage .backImage-heading { /*Arkaplan başlığı için css*/
     #mainNavbar.navbar-mobile {
         padding-top: 1rem;
         padding-bottom: 1rem;
-        background-color: #212529;
+        background-color: #041321;
     }
 
 }

@@ -5,11 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Hakkımda</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+      @import url("css/all.css");
+    </style>
+  
+    <link rel="stylesheet" href="css\custom\extra.css">
     <link rel="stylesheet" href="css\custom\hakkımda.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   </head>
+
   <body>
-    
+    <!-- navigation start-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
+      <div class="container">
+          <a href="#page-body" class="navbar-brand text-uppercase" title="Home">Home</a>
+          <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#myNavbar"
+              aria-controls="myNavbar" aria-label="menüyü açma kapama butonu" aria-expanded="false">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="myNavbar" aria-labelledby="myLabel">
+              <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="myLabel">Menü</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Kapat">
+                  </button>
+              </div>
+              <div class="offcanvas-body">
+                  <ul class="navbar-nav ms-auto text-uppercase py-lg-2">
+                      <li class="nav-item"><a href="şehrim.html" class="nav-link">Şehrim</a></li>
+                      <li class="nav-item"><a href="api.html" class="nav-link">API</a></li>
+                      <li class="nav-item"><a href="hakkımda.html" class="nav-link">Hakkımda</a></li>
+                      <li class="nav-item"><a href="cv.html" class="nav-link">CV</a></li>
+                      <li class="nav-item"><a href="iletişim.html" class="nav-link">İletişim</a></li>
+                      <li class="nav-item"><a href="login.html" class="nav-link">Giriş</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </nav>
+  <!-- navigation end-->
+
     <div class = "about-wrapper">
       <div class = "about-left">
         <div class = "about-left-content">
@@ -24,14 +59,13 @@
             <h3>Bilgisayar Mühendisi</h3>
           </div>
 
-          <ul class = "icons">
-            <li><i class = "fab fa-twitter"></i></li>
-            <li><i class = "fab fa-github"></i></li>
-            <li><i class = "fab fa-instagram"></i></li>
+          <ul class="icons">
+            <li><a href="https://twitter.com/fatihzsaz" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://github.com/fatihucar"  target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/fattiucar/" target="_blank"><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
       </div>
-
       <div class = "about-right">
         <h1>Merhaba<span>!</span></h1>
         <h2>İŞTE BEN!</h2>       
@@ -42,5 +76,7 @@
         </div>
       </div>
     </div>
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/custom/extra.js"></script>
   </body>
 </html>
