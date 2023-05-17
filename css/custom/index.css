@@ -1,4 +1,7 @@
 header.backImage { /*Arkaplan resmi için css*/
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
     background-image: url("../../img/ünye_arkaplan.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -70,6 +73,19 @@ header.backImage .backImage-heading { /*Arkaplan başlığı için css*/
     #mainNavbar .navbar-nav .nav-item .nav-link {
         color: #2976cd;
     }
+    .offcanvas {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 250px;
+        z-index: 1050;
+        padding-top: 3.5rem;
+        overflow-y: auto;
+        background-color: #f8f9fa;
+        transition: transform 0.3s ease-in-out;
+      }
+    
 }
 
 @media(min-width:992px) {/*Large ekran ve üsütünde uygulanması gereken css*/
@@ -117,4 +133,3 @@ header.backImage .backImage-heading { /*Arkaplan başlığı için css*/
     }
 
 }
-
