@@ -32,12 +32,12 @@
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav ms-auto text-uppercase py-lg-2">
-                        <li class="nav-item"><a href="şehrim.html" class="nav-link">Şehrim</a></li>
-                        <li class="nav-item"><a href="api.html" class="nav-link">API</a></li>
-                        <li class="nav-item"><a href="hakkımda.html" class="nav-link">Hakkımda</a></li>
-                        <li class="nav-item"><a href="cv.html" class="nav-link">CV</a></li>
-                        <li class="nav-item"><a href="iletişim.html" class="nav-link">İletişim</a></li>
-                        <li class="nav-item"><a href="login.html" class="nav-link">Giriş</a></li>
+                        <li class="nav-item"><a href="şehrim.php" class="nav-link">Şehrim</a></li>
+                        <li class="nav-item"><a href="api.php" class="nav-link">API</a></li>
+                        <li class="nav-item"><a href="hakkımda.php" class="nav-link">Hakkımda</a></li>
+                        <li class="nav-item"><a href="cv.php" class="nav-link">CV</a></li>
+                        <li class="nav-item"><a href="iletişim.php" class="nav-link">İletişim</a></li>
+                        <li class="nav-item"><a href="adminpage.php" class="nav-link">Giriş</a></li>
                     </ul>
                 </div>
             </div>
