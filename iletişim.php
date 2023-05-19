@@ -31,7 +31,7 @@
             <div class="offcanvas-body">
                 <ul class="navbar-nav ms-auto text-uppercase py-lg-2">
                     <li class="nav-item"><a href="şehrim.php" class="nav-link">Şehrim</a></li>
-                    <li class="nav-item"><a href="api.php" class="nav-link">API</a></li>
+                    <li class="nav-item"><a href="apı.php" class="nav-link">API</a></li>
                     <li class="nav-item"><a href="hakkımda.php" class="nav-link">Hakkımda</a></li>
                     <li class="nav-item"><a href="cv.php" class="nav-link">CV</a></li>
                     <li class="nav-item"><a href="iletişim.php" class="nav-link">İletişim</a></li>

@@ -1,26 +1,23 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Fatih UÇAR">
-    <meta name="description" content="kişisel tanıtım ve memleket">
-    <meta name="keywords" content="web,tasarım,kişisel,ünye tanıtım,programlama,yazılım,geliştirme">
-    <link href="img/findik.jpg" rel="icon">
-    <link href="img/apple-touch-findik .jpg" rel="apple-touch-icon">
-    <title>Ünye tanıtım</title>
-    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>API</title>
     <style>
         @import url("css/all.css");
     </style>
 
     <link rel="stylesheet" href="css/custom/index.css">
+    <link rel="stylesheet" href="css/custom/apı.css">
 </head>
-
 <body>
-    <!-- navigation start-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
+
+     <!-- navigation start-->
+     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
         <div class="container">
             <a href="index.html" class="navbar-brand text-uppercase" title="Home">Home</a>
             <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#myNavbar"
@@ -36,7 +33,7 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav ms-auto text-uppercase py-lg-2">
                         <li class="nav-item"><a href="şehrim.php" class="nav-link">Şehrim</a></li>
-                        <li class="nav-item"><a href="apı.php" class="nav-link">API</a></li>
+                        <li class="nav-item"><a href="api.php" class="nav-link">API</a></li>
                         <li class="nav-item"><a href="hakkımda.php" class="nav-link">Hakkımda</a></li>
                         <li class="nav-item"><a href="cv.php" class="nav-link">CV</a></li>
                         <li class="nav-item"><a href="iletişim.php" class="nav-link">İletişim</a></li>
@@ -47,19 +44,15 @@
         </div>
     </nav>
     <!-- navigation end-->
+    <div class="movies"></div>
 
-    <!--header start-->
-    <header class="backImage text-white text-center">
-        <div class="container">
-            <div class="backImage-sub mb-4">Güzel Ünyemize Hoş Geldiniz!</div>
-            <div class="backImage-heading text-uppercase">Tanıştığımıza Memnun Olduk</div>
-            <a href="#services" class="btn btn-danger btn-lg p-lg-4 text-uppercase fw-bolder">Daha Fazla Anlat</a>
-        </div>
-    </header>
-    <!-- header end-->
+
+
+
 
     <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="js/custom/navbar.js"></script>
+    <script src="js/custom/apı.js" type="module"></script>
+    
 </body>
-
 </html>
