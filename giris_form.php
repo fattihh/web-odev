@@ -46,9 +46,43 @@ if(isset($_POST['submit'])){
    <title>Giriş formu</title>
    <link rel="stylesheet" href="css\custom\giris.css">
 
+   <style>
+        @import url("css/all.css");
+    </style>
+
+    <link rel="stylesheet" href="css/custom/index.css">
+
 </head>
 <body>
-   
+    <!-- navigation start-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
+        <div class="container">
+            <a href="index.php" class="navbar-brand text-uppercase" title="Home">Home</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#myNavbar"
+                aria-controls="myNavbar" aria-label="menüyü açma kapama butonu" aria-expanded="false" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="myNavbar" aria-labelledby="myLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="myLabel">Menü</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Kapat">
+                    </button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto text-uppercase py-lg-2">
+                        <li class="nav-item"><a href="şehrim.php" class="nav-link">Şehrim</a></li>
+                        <li class="nav-item"><a href="apı.php" class="nav-link">API</a></li>
+                        <li class="nav-item"><a href="hakkımda.php" class="nav-link">Hakkımda</a></li>
+                        <li class="nav-item"><a href="cv.php" class="nav-link">CV</a></li>
+                        <li class="nav-item"><a href="iletişim.php" class="nav-link">İletişim</a></li>
+                        <li class="nav-item"><a href="giris_form.php" class="nav-link">Giriş</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navigation end-->
+
 <div class="form-container">
 
    <form action="" method="post">

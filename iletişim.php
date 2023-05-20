@@ -17,7 +17,7 @@
   <!-- navigation start-->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
     <div class="container">
-        <a href="index.html" class="navbar-brand text-uppercase" title="Home">Home</a>
+        <a href="index.php" class="navbar-brand text-uppercase" title="Home">Home</a>
         <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#myNavbar"
             aria-controls="myNavbar" aria-label="menüyü açma kapama butonu" aria-expanded="false" >
             <span class="navbar-toggler-icon"></span>
@@ -35,7 +35,7 @@
                     <li class="nav-item"><a href="hakkımda.php" class="nav-link">Hakkımda</a></li>
                     <li class="nav-item"><a href="cv.php" class="nav-link">CV</a></li>
                     <li class="nav-item"><a href="iletişim.php" class="nav-link">İletişim</a></li>
-                    <li class="nav-item"><a href="adminpage.php" class="nav-link">Giriş</a></li>
+                    <li class="nav-item"><a href="giris_form.php" class="nav-link">Giriş</a></li>
                 </ul>
             </div>
         </div>

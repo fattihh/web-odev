@@ -22,7 +22,7 @@
     <!-- navigation start-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
         <div class="container">
-            <a href="index.html" class="navbar-brand text-uppercase" title="Home">Home</a>
+            <a href="index.php" class="navbar-brand text-uppercase" title="Home">Home</a>
             <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#myNavbar"
                 aria-controls="myNavbar" aria-label="menüyü açma kapama butonu" aria-expanded="false" >
                 <span class="navbar-toggler-icon"></span>
@@ -40,7 +40,7 @@
                         <li class="nav-item"><a href="hakkımda.php" class="nav-link">Hakkımda</a></li>
                         <li class="nav-item"><a href="cv.php" class="nav-link">CV</a></li>
                         <li class="nav-item"><a href="iletişim.php" class="nav-link">İletişim</a></li>
-                        <li class="nav-item"><a href="adminpage.php" class="nav-link">Giriş</a></li>
+                        <li class="nav-item"><a href="giris_form.php" class="nav-link">Giriş</a></li>
                     </ul>
                 </div>
             </div>
@@ -53,7 +53,7 @@
         <div class="container">
             <div class="backImage-sub mb-4">Güzel Ünyemize Hoş Geldiniz!</div>
             <div class="backImage-heading text-uppercase">Tanıştığımıza Memnun Olduk</div>
-            <a href="#services" class="btn btn-danger btn-lg p-lg-4 text-uppercase fw-bolder">Daha Fazla Anlat</a>
+            <a href="#https://tr.wikipedia.org/wiki/%C3%9Cnye" class="btn btn-danger btn-lg p-lg-4 text-uppercase fw-bolder">Daha Fazla Anlat</a>
         </div>
     </header>
     <!-- header end-->
