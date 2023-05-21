@@ -101,6 +101,7 @@ if(isset($_POST['submit'])){
    </form>
 
 </div>
-
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/custom/navbar.js"></script>
 </body>
 </html>
